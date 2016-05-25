@@ -13,7 +13,7 @@ from joyFunctions import FabJoyFunctions
 shutdown = False
 
 config = ConfigParser.ConfigParser()
-config.read('/var/www/fabui/python/config.ini')
+config.read('/var/www/lib/serial.ini')
 
 
 try:
